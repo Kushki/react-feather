@@ -16,9 +16,27 @@ const Menu = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =>
       strokeLinejoin="round"
       {...rest}
     >
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <line x1="3" y1="6" x2="21" y2="6" />
-      <line x1="3" y1="18" x2="21" y2="18" />
+      <path
+        d="M3 12H21"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3 6H21"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3 18H21"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

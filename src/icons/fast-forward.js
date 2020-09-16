@@ -16,8 +16,20 @@ const FastForward = forwardRef(({ color = 'currentColor', size = 24, ...rest }, 
       strokeLinejoin="round"
       {...rest}
     >
-      <polygon points="13 19 22 12 13 5 13 19" />
-      <polygon points="2 19 11 12 2 5 2 19" />
+      <path
+        d="M13 19L22 12L13 5V19Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 19L11 12L2 5V19Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

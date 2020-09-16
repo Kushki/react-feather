@@ -16,8 +16,20 @@ const Pause = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =
       strokeLinejoin="round"
       {...rest}
     >
-      <rect x="6" y="4" width="4" height="16" />
-      <rect x="14" y="4" width="4" height="16" />
+      <path
+        d="M10 4H6V20H10V4Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18 4H14V20H18V4Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

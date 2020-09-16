@@ -16,8 +16,20 @@ const Tv = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) => {
       strokeLinejoin="round"
       {...rest}
     >
-      <rect x="2" y="7" width="20" height="15" rx="2" ry="2" />
-      <polyline points="17 2 12 7 7 2" />
+      <path
+        d="M20 7H4C2.89543 7 2 7.89543 2 9V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20V9C22 7.89543 21.1046 7 20 7Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M17 2L12 7L7 2"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

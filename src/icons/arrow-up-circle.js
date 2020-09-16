@@ -16,9 +16,27 @@ const ArrowUpCircle = forwardRef(({ color = 'currentColor', size = 24, ...rest }
       strokeLinejoin="round"
       {...rest}
     >
-      <circle cx="12" cy="12" r="10" />
-      <polyline points="16 12 12 8 8 12" />
-      <line x1="12" y1="16" x2="12" y2="8" />
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16 12L12 8L8 12"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 16V8"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

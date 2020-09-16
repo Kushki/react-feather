@@ -16,7 +16,13 @@ const Play = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =>
       strokeLinejoin="round"
       {...rest}
     >
-      <polygon points="5 3 19 12 5 21 5 3" />
+      <path
+        d="M5 3L19 12L5 21V3Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

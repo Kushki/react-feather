@@ -16,8 +16,20 @@ const SkipBack = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref
       strokeLinejoin="round"
       {...rest}
     >
-      <polygon points="19 20 9 12 19 4 19 20" />
-      <line x1="5" y1="19" x2="5" y2="5" />
+      <path
+        d="M19 20L9 12L19 4V20Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M5 19V5"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

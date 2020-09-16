@@ -16,7 +16,13 @@ const Bluetooth = forwardRef(({ color = 'currentColor', size = 24, ...rest }, re
       strokeLinejoin="round"
       {...rest}
     >
-      <polyline points="6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5" />
+      <path
+        d="M6.5 6.5L17.5 17.5L12 23V1L17.5 6.5L6.5 17.5"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

@@ -16,7 +16,13 @@ const Navigation = forwardRef(({ color = 'currentColor', size = 24, ...rest }, r
       strokeLinejoin="round"
       {...rest}
     >
-      <polygon points="3 11 22 2 13 21 11 13 3 11" />
+      <path
+        d="M3 11L22 2L13 21L11 13L3 11Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

@@ -4,11 +4,11 @@ const path = require('path');
 const fs = require('fs');
 const format = require('prettier-eslint');
 const upperCamelCase = require('uppercamelcase');
-const featherIcons = require('feather-icons/dist/icons.json');
+const sukaIcons = require('../src/icons.json');
 
 const rootDir = path.join(__dirname, '..');
 
-const icons = Object.keys(featherIcons);
+const icons = Object.keys(sukaIcons);
 
 const dir = path.join(rootDir, 'src/icons');
 
@@ -69,7 +69,7 @@ icons.forEach((i) => {
     const ${ComponentName} = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) => {
       return (
         <svg ref={ref} ${attrsToString(defaultAttrs)}>
-          ${featherIcons[i]}
+          ${sukaIcons[i]}
         </svg>
       )
     });

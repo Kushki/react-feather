@@ -16,11 +16,41 @@ const Codepen = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref)
       strokeLinejoin="round"
       {...rest}
     >
-      <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2" />
-      <line x1="12" y1="22" x2="12" y2="15.5" />
-      <polyline points="22 8.5 12 15.5 2 8.5" />
-      <polyline points="2 15.5 12 8.5 22 15.5" />
-      <line x1="12" y1="2" x2="12" y2="8.5" />
+      <path
+        d="M12 2L22 8.5V15.5L12 22L2 15.5V8.5L12 2Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 22V15.5"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 8.5L12 15.5L2 8.5"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 15.5L12 8.5L22 15.5"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 2V8.5"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

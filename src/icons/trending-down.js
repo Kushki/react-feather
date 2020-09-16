@@ -16,8 +16,20 @@ const TrendingDown = forwardRef(({ color = 'currentColor', size = 24, ...rest },
       strokeLinejoin="round"
       {...rest}
     >
-      <polyline points="23 18 13.5 8.5 8.5 13.5 1 6" />
-      <polyline points="17 18 23 18 23 12" />
+      <path
+        d="M23 18L13.5 8.5L8.5 13.5L1 6"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M17 18H23V12"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

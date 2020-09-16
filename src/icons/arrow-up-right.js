@@ -16,8 +16,20 @@ const ArrowUpRight = forwardRef(({ color = 'currentColor', size = 24, ...rest },
       strokeLinejoin="round"
       {...rest}
     >
-      <line x1="7" y1="17" x2="17" y2="7" />
-      <polyline points="7 7 17 7 17 17" />
+      <path
+        d="M7 17L17 7"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7 7H17V17"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

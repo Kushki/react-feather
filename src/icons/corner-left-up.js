@@ -16,8 +16,20 @@ const CornerLeftUp = forwardRef(({ color = 'currentColor', size = 24, ...rest },
       strokeLinejoin="round"
       {...rest}
     >
-      <polyline points="14 9 9 4 4 9" />
-      <path d="M20 20h-7a4 4 0 0 1-4-4V4" />
+      <path
+        d="M14 9L9 4L4 9"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M20 20H13C11.9391 20 10.9217 19.5786 10.1716 18.8284C9.42143 18.0783 9 17.0609 9 16V4"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

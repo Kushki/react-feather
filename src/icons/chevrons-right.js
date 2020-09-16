@@ -16,8 +16,20 @@ const ChevronsRight = forwardRef(({ color = 'currentColor', size = 24, ...rest }
       strokeLinejoin="round"
       {...rest}
     >
-      <polyline points="13 17 18 12 13 7" />
-      <polyline points="6 17 11 12 6 7" />
+      <path
+        d="M13 17L18 12L13 7"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6 17L11 12L6 7"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

@@ -16,8 +16,20 @@ const Edit3 = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =
       strokeLinejoin="round"
       {...rest}
     >
-      <path d="M12 20h9" />
-      <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+      <path
+        d="M14 2L18 6L7 17H3V13L14 2Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3 22H21"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

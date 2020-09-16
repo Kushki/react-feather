@@ -16,10 +16,41 @@ const Wifi = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =>
       strokeLinejoin="round"
       {...rest}
     >
-      <path d="M5 12.55a11 11 0 0 1 14.08 0" />
-      <path d="M1.42 9a16 16 0 0 1 21.16 0" />
-      <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
-      <line x1="12" y1="20" x2="12.01" y2="20" />
+      <g clipPath="url(#clip0)">
+        <path
+          d="M5 12.55C6.97656 10.9037 9.46761 10.0021 12.04 10.0021C14.6124 10.0021 17.1034 10.9037 19.08 12.55"
+          stroke="#46525C"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M1.42004 8.99997C4.34247 6.42394 8.10434 5.00262 12 5.00262C15.8957 5.00262 19.6576 6.42394 22.58 8.99997"
+          stroke="#46525C"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M8.53003 16.11C9.54523 15.3888 10.7597 15.0013 12.005 15.0013C13.2504 15.0013 14.4648 15.3888 15.48 16.11"
+          stroke="#46525C"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M12 20H12.01"
+          stroke="#46525C"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+      <defs>
+        <clippath id="clip0">
+          <rect width="24" height="24" fill="white" />
+        </clippath>
+      </defs>
     </svg>
   );
 });

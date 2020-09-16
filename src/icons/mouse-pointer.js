@@ -16,8 +16,20 @@ const MousePointer = forwardRef(({ color = 'currentColor', size = 24, ...rest },
       strokeLinejoin="round"
       {...rest}
     >
-      <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" />
-      <path d="M13 13l6 6" />
+      <path
+        d="M3 3L10.07 19.97L12.58 12.58L19.97 10.07L3 3Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M13 13L19 19"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

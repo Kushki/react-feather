@@ -16,10 +16,34 @@ const ZapOff = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) 
       strokeLinejoin="round"
       {...rest}
     >
-      <polyline points="12.41 6.75 13 2 10.57 4.92" />
-      <polyline points="18.57 12.91 21 10 15.66 10" />
-      <polyline points="8 8 3 14 12 14 11 22 16 16" />
-      <line x1="1" y1="1" x2="23" y2="23" />
+      <path
+        d="M12.4099 6.75L12.9999 2L10.5699 4.92"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18.57 12.91L21 10H15.66"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8 8L3 14H12L11 22L16 16"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M1 1L23 23"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

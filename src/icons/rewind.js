@@ -16,8 +16,20 @@ const Rewind = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) 
       strokeLinejoin="round"
       {...rest}
     >
-      <polygon points="11 19 2 12 11 5 11 19" />
-      <polygon points="22 19 13 12 22 5 22 19" />
+      <path
+        d="M11 19L2 12L11 5V19Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 19L13 12L22 5V19Z"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });

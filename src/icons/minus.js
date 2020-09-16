@@ -16,7 +16,13 @@ const Minus = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =
       strokeLinejoin="round"
       {...rest}
     >
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path
+        d="M5 12H19"
+        stroke="#46525C"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 });
