@@ -1,6 +1,7 @@
 {
   "name": "@kushki/suka-react-system-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "private": false,
   "description": "React component for Suk'a system icons",
   "main": "build/index.js",
   "module": "dist/index.js",
