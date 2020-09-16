@@ -8,17 +8,17 @@ suka-react-system-icons is a collection of simply beautiful open source icons fo
 #### Based on Feather Icons  ```v4.28.0```
 
 ### Installation
-    yarn add suka-react-system-icons
-    
+    yarn add @kushki/suka-react-system-icons
+
   or
-    
-    npm i suka-react-system-icons
+
+    npm i @kushki/suka-react-system-icons
 
 ### Usage
 
 ```javascript
 import React from 'react';
-import { Camera } from 'suka-react-system-icons';
+import { Camera } from '@kushki/suka-react-system-icons';
 
 const App = () => {
   return <Camera />
@@ -34,7 +34,7 @@ Icons can be configured with inline props:
 
 If you can't use ES6 imports, it's possible to include icons from the compiled folder ./dist.
 ```javascript
-var Camera = require('suka-react-system-icons/dist/icons/camera').default;
+var Camera = require('@kushki/suka-react-system-icons/dist/icons/camera').default;
 
 var MyComponent = React.createClass({
   render: function () {
@@ -48,7 +48,7 @@ You can also include the whole icon pack:
 
 ```javascript
 import React from 'react';
-import * as Icon from 'suka-react-system-icons';
+import * as Icon from '@kushki/suka-react-system-icons';
 
 const App = () => {
   return <Icon.Camera />
