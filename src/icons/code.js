@@ -16,20 +16,8 @@ const Code = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =>
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M16 18L22 12L16 6"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M8 6L2 12L8 18"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M16 18L22 12L16 6" />
+      <path d="M8 6L2 12L8 18" />
     </svg>
   );
 });

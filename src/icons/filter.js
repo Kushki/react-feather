@@ -16,13 +16,7 @@ const Filter = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) 
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M22 3H2L10 12.46V19L14 21V12.46L22 3Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M22 3H2L10 12.46V19L14 21V12.46L22 3Z" />
     </svg>
   );
 });

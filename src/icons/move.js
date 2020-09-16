@@ -16,48 +16,12 @@ const Move = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =>
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M5 9L2 12L5 15"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M9 5L12 2L15 5"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M15 19L12 22L9 19"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M19 9L22 12L19 15"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M2 12H22"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12 2V22"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M5 9L2 12L5 15" />
+      <path d="M9 5L12 2L15 5" />
+      <path d="M15 19L12 22L9 19" />
+      <path d="M19 9L22 12L19 15" />
+      <path d="M2 12H22" />
+      <path d="M12 2V22" />
     </svg>
   );
 });

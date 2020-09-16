@@ -16,20 +16,8 @@ const TrendingUp = forwardRef(({ color = 'currentColor', size = 24, ...rest }, r
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M23 6L13.5 15.5L8.5 10.5L1 18"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M17 6H23V12"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M23 6L13.5 15.5L8.5 10.5L1 18" />
+      <path d="M17 6H23V12" />
     </svg>
   );
 });

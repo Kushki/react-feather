@@ -16,20 +16,8 @@ const ArrowDownRight = forwardRef(({ color = 'currentColor', size = 24, ...rest 
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M7 7L17 17"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M17 7V17H7"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M7 7L17 17" />
+      <path d="M17 7V17H7" />
     </svg>
   );
 });

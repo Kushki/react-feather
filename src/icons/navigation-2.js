@@ -16,13 +16,7 @@ const Navigation2 = forwardRef(({ color = 'currentColor', size = 24, ...rest }, 
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M12 2L19 21L12 17L5 21L12 2Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M12 2L19 21L12 17L5 21L12 2Z" />
     </svg>
   );
 });

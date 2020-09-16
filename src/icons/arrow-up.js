@@ -16,20 +16,8 @@ const ArrowUp = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref)
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M12 19V5"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M5 12L12 5L19 12"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M12 19V5" />
+      <path d="M5 12L12 5L19 12" />
     </svg>
   );
 });

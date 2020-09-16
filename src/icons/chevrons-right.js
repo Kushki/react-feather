@@ -16,20 +16,8 @@ const ChevronsRight = forwardRef(({ color = 'currentColor', size = 24, ...rest }
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M13 17L18 12L13 7"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M6 17L11 12L6 7"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M13 17L18 12L13 7" />
+      <path d="M6 17L11 12L6 7" />
     </svg>
   );
 });

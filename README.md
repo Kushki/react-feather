@@ -1,6 +1,6 @@
 ## Suka React System Icons
-[![npm version](https://img.shields.io/npm/v/react-feather.svg?style=flat-square)](https://www.npmjs.com/package/suka-react-system-icons)
-[![npm downloads](https://img.shields.io/npm/dm/react-feather.svg?style=flat-square)](https://www.npmjs.com/package/suka-react-system-icons)
+[![npm version](https://img.shields.io/npm/v/kushki/suka-react-system-icons.svg?style=flat-square)](https://www.npmjs.com/package/@kushki/suka-react-system-icons)
+[![npm downloads](https://img.shields.io/npm/dm/kushki/suka-react-system-icons.svg?style=flat-square)](https://www.npmjs.com/package/@kushki/suka-react-system-icons)
 
 #### What is suka-react-system-icons?
 suka-react-system-icons is a collection of simply beautiful open source icons for React.js based on the system icons from the [Suk'a design system](https://suka.kushkipagos.com). Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.

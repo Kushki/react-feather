@@ -16,27 +16,9 @@ const Map = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) => 
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M1 6V22L8 18L16 22L23 18V2L16 6L8 2L1 6Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M8 2V18"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M16 6V22"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M1 6V22L8 18L16 22L23 18V2L16 6L8 2L1 6Z" />
+      <path d="M8 2V18" />
+      <path d="M16 6V22" />
     </svg>
   );
 });

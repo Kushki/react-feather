@@ -16,27 +16,9 @@ const Transactions2 = forwardRef(({ color = 'currentColor', size = 24, ...rest }
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M12 17.5C13.6569 17.5 15 16.1569 15 14.5C15 12.8431 13.6569 11.5 12 11.5C10.3431 11.5 9 12.8431 9 14.5C9 16.1569 10.3431 17.5 12 17.5Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M1 21V8H23V21H1Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M4 5H20M7 2H17"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M12 17.5C13.6569 17.5 15 16.1569 15 14.5C15 12.8431 13.6569 11.5 12 11.5C10.3431 11.5 9 12.8431 9 14.5C9 16.1569 10.3431 17.5 12 17.5Z" />
+      <path d="M1 21V8H23V21H1Z" />
+      <path d="M4 5H20M7 2H17" />
     </svg>
   );
 });

@@ -16,20 +16,8 @@ const SkipBack = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M19 20L9 12L19 4V20Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M5 19V5"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M19 20L9 12L19 4V20Z" />
+      <path d="M5 19V5" />
     </svg>
   );
 });

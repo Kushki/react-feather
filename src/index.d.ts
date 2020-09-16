@@ -7,7 +7,6 @@ interface Props extends SVGAttributes<SVGElement> {
 }
 
 type Icon = FC<Props>;
-export const Industry: Icon;
 export const Activity: Icon;
 export const Airplay: Icon;
 export const AlertCircle: Icon;
@@ -137,6 +136,7 @@ export const HelpCircle: Icon;
 export const Home: Icon;
 export const Image: Icon;
 export const Inbox: Icon;
+export const Industry: Icon;
 export const Info: Icon;
 export const Instagram: Icon;
 export const Italic: Icon;

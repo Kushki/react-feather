@@ -17,27 +17,9 @@ const List = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) =>
       {...rest}
     >
       <g clipPath="url(#clip0)">
-        <path
-          d="M8 6H21"
-          stroke="#46525C"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M8 12H21"
-          stroke="#46525C"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M8 18H21"
-          stroke="#46525C"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        <path d="M8 6H21" />
+        <path d="M8 12H21" />
+        <path d="M8 18H21" />
       </g>
       <defs>
         <clippath id="clip0">

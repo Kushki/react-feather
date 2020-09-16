@@ -16,20 +16,8 @@ const Rewind = forwardRef(({ color = 'currentColor', size = 24, ...rest }, ref) 
       strokeLinejoin="round"
       {...rest}
     >
-      <path
-        d="M11 19L2 12L11 5V19Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M22 19L13 12L22 5V19Z"
-        stroke="#46525C"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path d="M11 19L2 12L11 5V19Z" />
+      <path d="M22 19L13 12L22 5V19Z" />
     </svg>
   );
 });
